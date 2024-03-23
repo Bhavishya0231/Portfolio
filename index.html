@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(image2.jpg);
+            /* background-image: url(image\ 3.png); */
+            /* background-color: rgb(0,0,33); */
+            color: white;
+            font-family: "Poppins", sans-serif;
+            
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color:  rgb(0, 0, 12);
+            position: sticky;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+
+        }
+        .left{
+            font-size: 1.4rem;
+        }
+        .first{
+            display: flex;
+            justify-content: space-around;
+            margin: 110px 0;
+            
+        }
+
+        .leftsection{
+            /* background-color: red; */
+            font-size: 2.5rem;
+            margin: 70px 0;
+        }
+        .first div{
+            width: 30%;
+        }
+        .rightsection{
+            background-color: transparent;
+        }
+        .rightsection img{
+            margin: 30px 0;
+        }
+        .right li a{
+            color: white;
+            text-decoration: none;
+        }
+        .right li a:hover{
+            color:  #04fffb;
+            font-size: 1.1rem;
+        }
+        ::selection{
+            color: #04fffb;
+        }
+        .purple{
+            color: #04fffb;
+        }
+        #element{
+            color: #04fffb;
+
+        }
+        .second{
+            max-width: 80vw;
+            margin: auto;
+            height: 500px;
+        }
+
+        main hr{
+            border: 0;
+            background-color: white;
+            height:1.2px ;
+            margin: 40px 84px;
+        }
+        .second h1{
+            font-size: 1.9rem;
+        }
+        .aqua{
+            color: #04fffb;
+        }
+        .second .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .second .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: #04fffb;
+            width: 150px;
+            font-size: 9px;
+            text-align: left;
+
+        }
+        footer{
+            background-color: purple;
+            /* height: 233px; */
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 233px;
+
+        }
+        footer .rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        
+
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Bhavishya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi , My name is <span class="purple">Bhavishya</span> 
+                <!-- <div>And I am a web developer</div> -->
+                <span>and I am a web developer</span>
+                <div id="element"></div>
+
+
+            </div>
+            <div class="rightsection">
+                <img width="600px" height="600px" src="image1.png" alt="">
+            </div>
+        </section>
+    <hr>
+
+        <section class="second">
+            <span class="aqua">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, ipsa quidem veritatis magnam, sint sunt maiores suscipit quam placeat at facere perspiciatis.
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, ipsa quidem veritatis magnam, sint sunt maiores suscipit quam placeat at facere perspiciatis.
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, ipsa quidem veritatis magnam, sint sunt maiores suscipit quam placeat at facere perspiciatis.
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, ipsa quidem veritatis magnam, sint sunt maiores suscipit quam placeat at facere perspiciatis.
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, ipsa quidem veritatis magnam, sint sunt maiores suscipit quam placeat at facere perspiciatis.
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, ipsa quidem veritatis magnam, sint sunt maiores suscipit quam placeat at facere perspiciatis.
+                    </div>
+
+                </div>
+                
+            </div>
+            
+        </section>
+    <hr>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Bhavishya developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>about</li>
+                    <li>contact</li>
+                    <li>services</li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>about</li>
+                    <li>contact</li>
+                    <li>services</li>
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>about</li>
+                    <li>contact</li>
+                    <li>services</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="rights">
+            Copyright www.bhavishyaportfolio.com | All Rights Reserverd 
+        </div>
+    </footer>
+
+
+        
+
+    
+        
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Developer', 'Graphics designer' , 'Video editor'],
+              typeSpeed: 50,
+            });
+          </script>
+
+
+    </main>
+
+    
+
+    
+</body>
+</html>
